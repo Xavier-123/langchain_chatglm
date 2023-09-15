@@ -1,0 +1,127 @@
+{"content": "贝尔-诊断命令", "summary": "内容:ALC-SR# show router ldp session [detail]"}
+{"content": "国际长途集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于个人业务-国际长途IDD、IP电话业务。 1、至一个国际方向质量下降20%超30分钟。 2、至一个或一个以上国家或地区业务中断。"}
+{"content": "贝尔-查看 HOST-IP", "summary": "内容:ALC-SR#show service id <service-id> static-host"}
+{"content": "网间电话通信集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于个人业务-网间电话通信，双向全阻。"}
+{"content": "贝尔-查看业务 SDP信息", "summary": "内容:ALC-SR# show service sdp-using [<sdp-id>:[vc-id]]"}
+{"content": "贝尔-配置接口 IP", "summary": "内容:ALC-SR>config>service>ies#"}
+{"content": "省际漫游集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于个人业务-省际漫游，与一个省的省际漫游不畅。"}
+{"content": "调度中心、内容中心集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于内容网-调度中心、内容中心，故障超15分钟。"}
+{"content": "卫星转发器集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于传输网-卫星转发器，中断或中心站与远端站中断。"}
+{"content": "SCP、SCPAS、SCIM/SCOM、SMP、VC、AIP集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于核心网-SCP、SCPAS、SCIM/SCOM、SMP、VC、AIP，阻断。"}
+{"content": "贝尔-创建 VPLS", "summary": "内容:ALC-SR# config service vpls <service-id> [customer <customer-id>] create"}
+{"content": "贝尔-查看 SAP信息", "summary": "内容:ALC-SR# show service id <service-id> sap <sap-id> [detail]"}
+{"content": "高铁RRU集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于无线接入网-高铁GSMRRU、高铁LTERRU，退服15个3小时或退服45个超1小时（8-23点内）（同一地市）"}
+{"content": "WAP网关集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于核心网-WAP网关，覆盖范围内相关业务（PULL业务、socket业务和PUSH业务）全阻。"}
+{"content": "行业网关集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于数据网-行业网关，全阻。"}
+{"content": "贝尔-查看 CARD状态", "summary": "内容:ALC-SR# show card [detail]"}
+{"content": "贝尔-创建三层接口", "summary": "内容:ALC-SR>config>service>ies# interface <interface-name> create subscriber-interface <interface-name> create"}
+{"content": "乡镇区域集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于个人业务-乡镇区域，语音全阻。"}
+{"content": "出入长途集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于传输网-任一区县出入长途，全阻。"}
+{"content": "贝尔-创建 Customer", "summary": "内容:ALC-SR# config service customer <customer-id> create description \"string\""}
+{"content": "贝尔-创建 EPIPE", "summary": "内容:ALC-SR# config service epipe <service-id> [customer <customer-id>] [vc-switching]create"}
+{"content": "Radius集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于家庭业务-Radius，无法认证。"}
+{"content": "贝尔-查看 SDP信息", "summary": "内容:ALC-SR# show service id <service-id> sdp <sap-id> [detail]"}
+{"content": "贝尔-使能 SSH服务", "summary": "内容:ALC-SR# config system security ssh [no] server-shutdown"}
+{"content": "独享VPN物联网业务集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于政企业务-独享VPN物联网业务，全阻超1万用户超30分钟。"}
+{"content": "CDN业务集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于家庭业务-CDN业务，全部中断超15分钟。"}
+{"content": "贝尔-使能 TELNET服务", "summary": "内容:ALC-SR# config system security [no] telnet-server"}
+{"content": "贝尔-显示设备日志", "summary": "内容:ALC-SR# show log log-id <99|100>"}
+{"content": "CMNET集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于承载网-CMNET。 1、骨干节点、RR、省网核心、城域网核心单节点退出服务。 2、去往电信、联通、国际任一方向中断 3、出省业务全阻 4、BRAS单节点退出服务。"}
+{"content": "BSC集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于无线接入网-BSC，任一BSC阻断。"}
+{"content": "贝尔-查看业务 SAP信息", "summary": "内容:ALC-SR# show service sap-using [sap <sap-id>]"}
+{"content": "贝尔-查看业务列表", "summary": "内容:ALC-SR# show serviceservice-using [vpls|epipe|vprn|ies]"}
+{"content": "4G基站集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于无线接入网-4G基站，退服30个超3小时或退服75个超1小时（同一地市）。"}
+{"content": "贝尔-创建三层接口", "summary": "内容:ALC-SR>config>service>vprn#"}
+{"content": "贝尔-显示 community", "summary": "内容:ALC-SR# show router policy community [community-name]"}
+{"content": "贝尔-提交生效", "summary": "内容:ALC-SR# config router policy-options commit"}
+{"content": "贝尔-配置命令", "summary": "内容:ALC-SR>config>router# ALC-SR>config>service>vprn#"}
+{"content": "贝尔-诊断命令", "summary": "内容:ALC-SR# show router route-table protocol static"}
+{"content": "贝尔-创建 SDP", "summary": "内容:ALC-SR# config service epipe <service-id> sdp <sdp-id:vc-id> [vc-type <ether|vlan>]create"}
+{"content": "WLAN认证平台集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于个人业务-WLAN一、二级认证平台，业务全阻。"}
+{"content": "省内集团客户集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于政企业务-总部直管省内集团客户，AAA级专线5条（含）以上全阻超2小时或5条以下全阻超5小时。"}
+{"content": "S-CSCF集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于核心网-S-CSCF。 1、初始注册成功率低于85%超15分钟。 2、接通率低于80%超15分钟。"}
+{"content": "贝尔-查看机框状态", "summary": "内容:ALC-SR# show chassis"}
+{"content": "贝尔-配置 SRRP", "summary": "内容:ALC-SR# config service ies <service-id> config service vprn <interface-id> subscriber-interface <interface-name> address <ip-address> gw-ip-address <ip-address>"}
+{"content": "贝尔-使能 FTP服务", "summary": "内容:ALC-SR# config system security [no] ftp-server"}
+{"content": "贝尔-配置 VRRP", "summary": "内容:ALC-SR# config router config service ies <service-id> config service vprn <interface-id>"}
+{"content": "APN下物联网业务集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于政企业务-APN下物联网业务。 1、一个以上全阻超5万用户超60分钟。 2、一个全阻超1万用户超120分钟。"}
+{"content": "省际长途集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于个人业务-省际长途，一个或一个以上省的单向或双向长途呼叫中断。"}
+{"content": "贝尔-查看路由发布和接收", "summary": "内容:ALC-SR# show router bgp routes vpn-ipv4 <prefix> [hunt]"}
+{"content": "贝尔-配置 Port", "summary": "内容:ALC-SR# config port <port-id> description <string> ethernet"}
+{"content": "跨省集团客户集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于政企业务-跨省集团客户，AAA级专线1条全阻超4小时。"}
+{"content": "网管核心交换机集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于网管网-网管核心交换机，故障。"}
+{"content": "贝尔-查看 MDA状态", "summary": "内容:ALC-SR# show mda [detail]"}
+{"content": "贝尔-创建 SDP", "summary": "内容:ALC-SR# config service sdp <sdp-id> [mpls|gre] create description \"string\" far-end <ip-address> ldp lsp <lsp-path> [no] shutdown keep-alive"}
+{"content": "IMS集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于核心网-IMS，任一设备或基础业务平台设备阻断。（含虚拟化网元）"}
+{"content": "ISC集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于个人业务-ISC，至一方或多方全阻超24小时。"}
+{"content": "贝尔-OAM维护工具", "summary": "内容:ALC-SR# oam cpe-ping service [id] source [ip-address] destination [ipaddress]"}
+{"content": "贝尔-创建 IES", "summary": "内容:ALC-SR# config service ies <service-id> [customer <customer-id>] create"}
+{"content": "贝尔-显示设备 CPU", "summary": "内容:ALC-SR# show system cpu"}
+{"content": "魔百和集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于家庭业务-魔百和。 1、一地市故障超15分钟。 2、全省故障超2万户超15分钟。"}
+{"content": "贝尔-配置链路聚合 LAG", "summary": "内容:ALC-SR# config lag <lag-id> description <string> mode <access|network> mtu <bytes> encap-type <dot1q|null|qinq> port <port-id> lacp [mode] [administrative-key <admin-key>]"}
+{"content": "贝尔-配置 RD", "summary": "内容:ALC-SR>config>service>vprn# route-distinguisher <ASN:number>"}
+{"content": "5G基站集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于无线接入网-5G基站，退服20个超3小时或退服60个超1小时（同一地市）。"}
+{"content": "贝尔-查看 SDP信息", "summary": "内容:ALC-SR# show service sdp [sdp-id] [detail]"}
+{"content": "贝尔-配置 MDA", "summary": "内容:ALC-SR# config card <slot> mda <mda-slot> mda type <mda-type>"}
+{"content": "单个网管集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于网管网-单个网管（省级或以上），不可用。"}
+{"content": "Volte业务集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于个人业务-Volte业务，受阻超2万用户超15分钟。"}
+{"content": "MME集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于核心网-MME，排除用户原因附着成功率低于80%超15分钟。"}
+{"content": "贝尔-开始修改", "summary": "内容:ALC-SR# config router policy-options begin"}
+{"content": "贝尔-查看 VPLS的基本信息", "summary": "内容:ALC-SR# show service id <service-id> base"}
+{"content": "贝尔-查看 VPLS关联的 SAP及 SDP", "summary": "内容:ALC-SR# show service id <service-id> sap show service id <service-id> sdp"}
+{"content": "贝尔-防止 MAC地址漂移", "summary": "内容:ALC-SR# config service epipe <service-id> sap <sap-id> spoke-sdp <sdp-id>"}
+{"content": "贝尔-创建 split-horizon-group", "summary": "内容:ALC-SR# config service epipe <service-id> split-horizon-group <split-name> [residential-group] create"}
+{"content": "贝尔-显示设备软件版本", "summary": "内容:ALC-SR# show version"}
+{"content": "贝尔-取消修改", "summary": "内容:ALC-SR# config router policy-options about"}
+{"content": "贝尔-查看 ARP", "summary": "内容:ALC-SR# show router <service-id> arp"}
+{"content": "智能网集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于个人业务-智能网，VC充值功能超15万用户持续1小时。"}
+{"content": "贝尔-查看 SAP信息", "summary": "内容:ALC-SR# show service id <service-id> sap <sap-id> [detail]"}
+{"content": "贝尔置设备名称的命令是什么？", "summary": "内容:ALC-SR# config system"}
+{"content": "贝尔-显示主备同步状态", "summary": "内容:ALC-SR# show redundancy synchronization"}
+{"content": "贝尔-监控 SAP及 SDP流量", "summary": "内容:ALC-SR# monitor service id <service-id> sap <sap-id> [rate] monitor service id <service-id> sdp <sdp-id> [rate]"}
+{"content": "贝尔-创建 VPRN", "summary": "内容:ALC-SR# config service vprn <service-id> [customer <customer-id>] create"}
+{"content": "本地网语音集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于个人业务-本地网语音，中断超1万用户超20分钟。"}
+{"content": "贝尔-清除 ARP", "summary": "内容:ALC-SR# clear router arp <ipaddress>清除指定 IP的 ARP，请留意不要清所有 ARP。"}
+{"content": "通信能力开放平台、能力网元接入模块、SCEF/AAC集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于核心网-通信能力开放平台、能力网元接入模块、SCEF/AAC，阻断。"}
+{"content": "贝尔-修改 MAC表大小", "summary": "内容:ALC-SR# config service epipe <service-id> fdb-table-size <size>"}
+{"content": "贝尔-创建 SAP", "summary": "内容:ALC-SR# config service vpls <service-id> sap <sap-id> create"}
+{"content": "贝尔-创建 SAP", "summary": "内容:ALC-SR# config service epipe <service-id> sap <sap-id> create"}
+{"content": "LTE业务集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于个人业务-LTE业务，受阻超2万用户超15分钟。"}
+{"content": "贝尔-监控 SAP流量", "summary": "内容:ALC-SR# monitor service id <service-id> sap <sap-id> [rate]"}
+{"content": "贝尔-显示设备运行时间", "summary": "内容:ALC-SR# show uptime"}
+{"content": "贝尔-监控 SAP及 SDP流量", "summary": "内容:ALC-SR# monitor service id <service-id> sap <sap-id> [rate] monitor service id <service-id> sdp <sdp-id> [rate]"}
+{"content": "贝尔- PING", "summary": "内容:ALC-SR# ping router <service-id> <ipaddress> [source <ipaddress>] [count <requests>] [rapid]"}
+{"content": "UPS系统、开关电源系统、高压直流系统集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于动环系统-UPS系统、开关电源系统、高压直流系统，输出中断。"}
+{"content": "IP承载网集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于承载网-IP承载网，CR、BR、AR、RR、CE单节点退出服务。"}
+{"content": "融合短信网关（梦网网关、互通网关）集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于数据网-融合短信网关（梦网网关、互通网关），全阻。"}
+{"content": "核心机楼、数据中心集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于动环系统-核心机楼、数据中心，多路市电全部停电。"}
+{"content": "内容管理平台集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于内容网-内容管理平台，一项业务分析中断，造成全网日志无法正常分析，超72小时。"}
+{"content": "物联网业务集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于政企业务-物联网业务，全阻超10万用户超30分钟。"}
+{"content": "彩信业务集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于个人业务-彩信中心、彩信网关，全阻。"}
+{"content": "贝尔-查看 VRRP状态", "summary": "内容:ALC-SR# config router [service-id] vrrp instance"}
+{"content": "贝尔-查看 MAC表", "summary": "内容:ALC-SR# show service id <service-id> fdb [detail] ALC-SR# show service fdb-mac"}
+{"content": "贝尔-配置 RT", "summary": "内容:ALC-SR>config>service>vprn# vrf-target export <ext-community> import <ext-community>"}
+{"content": "贝尔-查看 EPIPE关联的 SAP及 SDP", "summary": "内容:ALC-SR# show service id <service-id> sap show service id <service-id> sdp"}
+{"content": "贝尔-查看路由表", "summary": "内容:ALC-SR# show router <service-id> router-table"}
+{"content": "边缘节点集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于内容网-边缘节点，半数故障或脱网超过3小时。"}
+{"content": "WLANAP集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于数据网-WLANAP。 1、退服超2000个或30%超30分钟。 2、退服超1000个或15%超60分钟。"}
+{"content": "安全故障集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于其他类型重要故障，作用于其他类型-网络安全故障，参照《公共互联网网络安全突发事件应急预案》（工信部网安〔2017〕281号文）相关定义。"}
+{"content": "贝尔-查看路由是否通过 BGP发布", "summary": "内容:ALC-SR# show router bgp neigbour <ipaddress> advertised-routes"}
+{"content": "Cache系统集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于内容网-Cache系统，全部业务中断。"}
+{"content": "贝尔-创建 SAP", "summary": "内容:ALC-SR>config>service>ies#"}
+{"content": "短信业务集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于个人业务-短信。 1、省内短信业务全阻或部分中断30分钟超50万条。 2、国际短信业务全阻。"}
+{"content": "贝尔-设置SNMP团体字的命令是什么？", "summary": "内容:ALC-SR# config system security snmp"}
+{"content": "2G基站集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于无线接入网-2G基站，退服20个3小时或退服60个超1小时（同一地市）。"}
+{"content": "贝尔-查看 EPIPE的基本信息", "summary": "内容:ALC-SR# show service id <service-id> base"}
+{"content": "SAE-GW集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于核心网-SAE-GW，缺省承载建立成功率低于80%超15分钟。"}
+{"content": "贝尔-显示设备时间", "summary": "内容:ALC-SR# show time"}
+{"content": "家客业务集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于家庭业务-家客业务。 1、2个OLT退服超2小时(同一地市)。 2、超5000用户阻断超1小时(同一地市)。 3、超5000个ONU阻断超2小时(同一地市)。"}
+{"content": "贝尔-显示设备 Memory", "summary": "内容:ALC-SR# show system memory"}
+{"content": "STP集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于核心网-STP。 1、STP设备阻断。 2、HSTP间省际方向单平面直连链路全阻，或到1个省际方向直连链路全阻。 3、HSTP设备到1个省际方向或省内50%以上的信令链路持续频繁翻转超过30分钟。 4、HSTP或LSTP信令转接功能不正常，包括SCCP翻译功能及消息转发功能，使得某一类业务性能指标较正常值下降25%以上。"}
+{"content": "投诉预警集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于其他类型重要故障，作用于其他类型-投诉预警，红色。"}
+{"content": "贝尔-强制用户下线", "summary": "内容:ALC-SR# admin disconnect <users> -<users>: [address <ip-address> | username <user-name> | {console| telnet|ftp|ssh}]"}
+{"content": "贝尔-配置 IOM", "summary": "内容:ALC-SR# config card <slot> card type <iom-type>"}
+{"content": "贝尔-创建 SDP", "summary": "内容:ALC-SR# config service epipe <service-id> sdp <sdp-id:vc-id> [vc-type <ether|vlan>]create"}
+{"content": "国际漫游集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于个人业务-国际漫游。 1、至一个方向质量下降50%超30分钟。 2、与任一运营商全阻。 3、与任一运营商质量下降50%。"}
+{"content": "贝尔-查看 SRRP状态", "summary": "内容:ALC-SR# show srrp [<srrp-id> [detail]]"}
+{"content": "贝尔-创建 SAP", "summary": "内容:ALC-SR>config>service>vprn# interface <interface-name> sap <sap-id> create subscriber-interface <interface-name> group-interface <g-interface-name> sap <sap-id> create"}

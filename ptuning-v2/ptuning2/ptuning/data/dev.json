@@ -1,0 +1,32 @@
+{"content": "贝尔-显示登录用户", "summary": "内容:ALC-SR# show users"}
+{"content": "IP短信网关集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于数据网-IP短信网关，全阻。"}
+{"content": "贝尔-查看端口状态", "summary": "内容:ALC-SR# show port"}
+{"content": "一干/国际政企集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于传输网-一干，国际政企，中断导致系统倒换超2小时。"}
+{"content": "贝尔-监控端口流量", "summary": "内容:ALC-SR# monitor port <port-id> [rate] [interval <seconds>]"}
+{"content": "VoLTESBC集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于核心网-VoLTESBC，接通率低于80%超15分钟。"}
+{"content": "DNS系统集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于内容网-DNS系统，单节点故障。"}
+{"content": "贝尔-显示策略", "summary": "内容:ALC-SR# show router policy [policy-name]"}
+{"content": "DRA集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于核心网-DRA。 1、设备阻断。 2、省际方向单平面直连链路全阻。 3、省际方向直连链路1个全阻。 4、信令链路1个省际方向或省内50%频繁翻转超30分钟。 5、消息转发成功率下降25%。 6、信令转接功能不正常，使得业务性能指标下降25%。"}
+{"content": "贝尔-诊断命令", "summary": "内容:ALC-SR# show router bgp neigbour [ipaddress] [detail] show router bgp summary show router route-table protocol static"}
+{"content": "贝尔-显示 prefix", "summary": "内容:ALC-SR# show router policy prefix-list [prefix-name]"}
+{"content": "贝尔- PING", "summary": "内容:ALC-SR# ping <ipaddress> [source <ipaddress>] [count <requests>] [rapid]"}
+{"content": "贝尔-监控 SAP流量", "summary": "内容:ALC-SR# monitor service id <service-id> sap <sap-id> [rate]"}
+{"content": "贝尔-诊断命令", "summary": "内容:ALC-SR# show router ospf neibour [detail] show router ospf database show router route-table protocol ospf"}
+{"content": "网络云资源池集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于网络云-网络云资源池，超50%节点中断。"}
+{"content": "贝尔-查看 SDP信息", "summary": "内容:ALC-SR# show service id <service-id> sdp <sap-id> [detail]"}
+{"content": "党政军/金融客户集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于政企业务-党政军、金融客户，AAA级专线。 1、单条以上跨省客户，阻断并造成投诉。 2、重大政治、外事活动期间单条以上阻断并造成投诉。 3、重大节假日期间单条以上阻断并造成投诉。 4、客户要求重保期间单条以上阻断并造成投诉。"}
+{"content": "贝尔-查看 ARP", "summary": "内容:ALC-SR# show router arp"}
+{"content": "贝尔-查看 HOST-IP", "summary": "内容:ALC-SR#show service id <service-id> static-host show filter anti-spoof <注：R8以下版本> show service id <service-id> host <注：R6以下版本>"}
+{"content": "贝尔-配置接口 IP", "summary": "内容:ALC-SR>config>service>vprn#"}
+{"content": "数字同步网集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于传输网-数字同步网。 1、PRC网元定时性能严重降质，时钟级别降低到下一级别。 2、LPR网网元定时性能严重降质，时钟级别降低到下一级别。 3、省内同步网网元定时性能严重降质，时钟级别降低到下一级别。 4、省内时钟同步网、NTP时间同步网、1588v2高精度时间同步网网元瘫痪。 5、5%以上基站1588v2时间源不可用超3小时，或15%以上基站1588v2时间源不可用超1小时。"}
+{"content": "二干集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于传输网-二干，中断导致系统倒换超4小时。"}
+{"content": "网管系统集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于网管网-网管系统，部省接口故障。"}
+{"content": "贝尔-设置系统时间的命令是什么？请回答我", "summary": "内容:ALC-SR# admin set-time <date> <time> -<date> : YYYY/MM/DD -<time> : hh:mm[:ss]"}
+{"content": "固网IMS集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于个人业务-固网IMS，超5万用户超20分钟。"}
+{"content": "BG集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于核心网-BG，出访和入访全阻。"}
+{"content": "5G消息中心（短信中心）集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于数据网-5G消息中心（短信中心），全阻。"}
+{"content": "SGSN/MME、GGSN/SAG-GW、PCRF集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于核心网-SGSN/MME、GGSN/SAG-GW、PCRF，阻断。"}
+{"content": "关口局、MSCServer、MGW集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于核心网-关口局、MSCServer、MGW，阻断。"}
+{"content": "HSS集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要网络故障，作用于核心网-HSS。 1、分布式HSS的任一FE或者任一BE或者集中式HSS设备阻断。 2、任意HSS更新位置成功率指标低于80%或鉴权信息查询成功率指标低于80%，超过15分钟。"}
+{"content": "贝尔-诊断命令", "summary": "内容:ALC-SR# show router isis adjacency [detail] show router isis database show router route-table protocol isis"}
+{"content": "CDN业务集团重要故障标准是什么？", "summary": "一级标签是重要故障标准，二级标签是集团重要故障。属于重要业务故障，作用于政企业务-CDN业务。 1、一个业务全中断，影响流量100Gbps以上，超30分钟。 2、一个业务无法正常使用（如服务内容与源站不一致、服务成功率陡降、4XX/5XX异常code码陡增）、服务质量下降（如下载速率低、卡顿比陡增）、分组利用率和流量异常，故障超过60分钟。"}
